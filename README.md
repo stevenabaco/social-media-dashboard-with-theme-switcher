@@ -1,6 +1,6 @@
 # Frontend Mentor - Social media dashboard with theme switcher solution
 
-This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help developers improve their coding skills by building realistic projects. My solution is here to show others how I decided to solve the challenge using the skills I know. There are many ways to solve their challenges. Please use this information to learn and not jsut clone and use as your own solution. 
 
 ## Table of contents
 
@@ -14,9 +14,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -24,26 +21,29 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Toggle color theme to their preference
+- See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+#### This is the components Normal state ... <br>
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+<!-- ![](/images/normal-state.png) -->
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+#### Interactive state on Hover over change link...<br>
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+<!-- ![](/images/hover-change.png) -->
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+#### Interactive state on Hover over the payment link...<br>
+
+<!-- ![](/images/hover-payment.png) -->
+#### Interactive state on Hover over the payment link...<br>
+
+<!-- ![](/images/hover-cancel.png) -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [www.frontendmentor.io/profile/stevenabaco](https://www.frontendmentor.io/profile/stevenabaco)
+- Live Site URL: [stevenabaco.github.io/order-summary-component-main/](https://stevenabaco.github.io/social-media-dashboard-with-theme-switcher/)
 
 ## My process
 
@@ -52,61 +52,26 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- JavaScript
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Doing this project I strengthened my HTML and CSS skills to build a component using the Figma designs provided. I also had to use some JavaScript to the theme switches.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+One thing I used on this project whcich I don't normally use are CSS variables. I also learned the hard way (Spent a loooong time to figure it out, that if you want to do a a gradient background color you need to use "background" and not "background-color" in CSS)
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'd like to continue fine tuning my CSS skills to enhace the UI experience. I also need to work on improving my use of semantic HTML to help readers understand the page.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [stackOverflow](https://stackoverflow.com/users/13629204/steven-abaco) - The stackOverlow website helped me with solving some of the CSS issues I had with linking the images to be properly renedered when using the background image for a div, instead of loading a seperate image. I highly recommend developers use this resource.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Steven Abaco "WebDevWiz"](https://www.stevenabaco.dev)
+- Frontend Mentor - [@stevenabaco - WebDevWiz](https://www.frontendmentor.io/profile/stevenabaco)
+- Twitter - [@WebDevWiz](https://www.twitter.com/WebDevWiz)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
