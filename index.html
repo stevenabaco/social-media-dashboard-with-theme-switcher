@@ -1,94 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <script src="./main.js" defer></script>
-  <title>Frontend Mentor | Social Media Dashboard</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<script src="./main.js" defer></script>
+		<title>Frontend Mentor | Social Media Dashboard</title>
+	</head>
+	<body data-theme="light">
+		<header>
+      <div id="header-wrapper">
+        <div>
+				<h1 id="title-main">Social Media Dashboard</h1>
+				<div id="followers-total"><h2>Total Followers: 23,004</h2></div>
+			</div>
+			<hr />
+			<div id="theme-switcher">
+				<div><h2>Dark Mode</h2></div>
+				<div id="switch">
+					<input type="checkbox" id="switcher" /> <label for="switcher"></label>
+				</div>
+			</div>
+      </div>
+		</header>
+		<main class="wrapper">
+			<section id="social-platforms">
+				<div class="platform-container facebook">
+					<div class="platform">
+						<img src="images/icon-facebook.svg" alt="facebook logo" />
+						@WebDevWiz
+					</div>
+					<div class="followers">
+						<span>1987</span> <br />
+						<span>followers</span>
+					</div>
+					<div class="today up">
+						<img src="images/icon-up.svg" alt="up arrow" />
+						<span>12 Today</span>
+					</div>
+				</div>
+				<div class="platform-container twitter">
+					<div class="platform">
+						<img src="images/icon-twitter.svg" alt="twitter logo" /> @WebDevWiz
+					</div>
+					<div class="followers">
+						<span>11k</span> <br />
+						<span>followers</span>
+					</div>
+					<div class="today up">
+						<img src="images/icon-up.svg" alt="up arrow" />
+						<span>1099 Today</span>
+					</div>
+				</div>
+				<div class="platform-container instagram">
+					<div class="platform">
+						<img src="images/icon-instagram.svg" alt="instagram logo" />
+						@WebDevWiz
+					</div>
+					<div class="followers">
+						<span>1044</span> <br />
+						<span>followers</span>
+					</div>
+					<div class="today up">
+						<img src="images/icon-up.svg" alt="up arrow" />
+						<span>99 Today</span>
+					</div>
+				</div>
+				<div class="platform-container youtube">
+					<div class="platform">
+						<img src="images/icon-youtube.svg" alt="youtube logo" /> @WebDevWiz
+					</div>
+					<div class="followers">
+						<span>8239</span> <br />
+						<span>followers</span>
+					</div>
+					<div class="today down">
+						<img src="images/icon-down.svg" alt="down arrow" />
+						<span>144 Today</span>
+					</div>
+				</div>
+			</section>
+			<section id="overview">
+				<h1>Overview - Today</h1>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Page Views</span>
+						<img src="images/icon-facebook.svg" alt="facebook logo" />
+					</div>
+					<div class="page-views today up row-between">
+						<span>87</span>
+						<div>
+							<img src="images/icon-up.svg" alt="up arrow" />
+							<span class="up">3% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Likes</span>
+						<img src="images/icon-facebook.svg" alt="facebook logo" />
+					</div>
+					<div class="page-views today up row-between">
+						<span>52</span>
+						<div>
+							<img src="images/icon-down.svg" alt="down arrow" />
+							<span class="down">2% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Likes</span>
+						<img src="images/icon-instagram.svg" alt="instagram logo" />
+					</div>
+					<div class="page-views today up row-between">
+						<span>5462</span>
+						<div>
+							<img src="images/icon-up.svg" alt="up arrow" />
+							<span class="up">2257% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Profile Views</span>
+						<img src="images/icon-instagram.svg" alt="instagram logo" />
+					</div>
+					<div class="page-views today up row-between">
+						<span>52k</span>
+						<div>
+							<img src="images/icon-up.svg" alt="up arrow" />
+							<span class="up">1375% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Retweets</span>
+						<img src="images/icon-twitter.svg" alt="twitter logo" />
+					</div>
+					<div class="page-views today up row-between">
+						<span>117</span>
+						<div>
+							<img src="images/icon-up.svg" alt="up arrow" />
+							<span class="down">303% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Likes</span>
+						<img src="images/icon-twitter.svg" alt="twitter logo" />
+					</div>
+					<div class="page-views today up row-between">
+						<span>507</span>
+						<div>
+							<img src="images/icon-up.svg" alt="up arrow" />
+							<span class="down">533% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Likes</span>
+						<img src="images/icon-youtube.svg" alt="youtube logo" />
+					</div>
+					<div class="page-views today row-between">
+						<span>107</span>
+						<div>
+							<img src="images/icon-down.svg" alt="down arrow" />
+							<span class="down">19% </span>
+						</div>
+					</div>
+				</div>
+				<div class="overview-container">
+					<div class="page-views">
+						<span>Total Views</span>
+						<img src="images/icon-youtube.svg" alt="youtube logo" />
+					</div>
+					<div class="page-views today row-between">
+						<span>1407</span>
+						<div>
+							<img src="images/icon-down.svg" alt="down arrow" />
+							<span class="down">12% </span>
+						</div>
+					</div>
+				</div>
+			</section>
 
-</head>
-<body data-theme="light">
-  <header>
-    <div >
-      <h1 id="title-main">Social Media Dashboard</h1>
-      <div id="followers-total"><h2>Total Followers: 23,004</h2></div>
-    </div>
-    <hr/>
-    <div id="theme-switcher">
-      <div><h2>Dark Mode</h2></div>
-      <div id="switch"><input type="checkbox" id="switcher">
-      <label for="switcher"></label></div>
-      
-    </div>
-  </header>
- <section id="social-platforms">
-   <div class="platform-container">
-     <div class="platform"> <img src="images/icon-facebook.svg" alt="facebook">   @nathanf</div>
-     <div class="followers"><span>1987</span> <br> <span>followers</span> </div>
-     <div class="today up"><img src="images/icon-up.svg" alt="up arrow"> <span>12 today</span></div>
-   </div>
- </section>
-
-
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="http://www.stevenabaco.dev">Steven Abaco "WebDevWiz"</a>.
-  </div>
-</body>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. <br />
+				Coded by
+				<a href="http://www.stevenabaco.dev">Steven Abaco "WebDevWiz"</a>.
+			</div>
+		</main>
+	</body>
 </html>
