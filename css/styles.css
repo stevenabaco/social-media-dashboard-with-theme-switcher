@@ -140,11 +140,12 @@ input:checked + label::after {
 
 #social-platforms {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: -60px;
+	margin-top: -40px;
 }
 
 .platform-container {
@@ -155,7 +156,8 @@ input:checked + label::after {
 	width: 326px;
 	height: 216px;
 	background: var(--color-3);
-	margin: 15px auto;
+	margin: auto;
+	margin-bottom: 2rem;
 }
 
 .facebook,
@@ -208,11 +210,17 @@ input:checked + label::after {
 	color: var(--color-9);
 }
 
-#overview {
-	margin: 2rem auto;
+
+#overview-wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 #overview h1 {
+	margin-top: 2rem;
+	margin-left: 25px;
 	margin-bottom: 1rem;
 }
 
@@ -224,7 +232,7 @@ input:checked + label::after {
 	width: 326px;
 	height: 125px;
 	background: var(--color-3);
-	margin: 10px auto;
+	margin: 15px auto;
 	padding: 18px;
 }
 
@@ -263,6 +271,7 @@ input:checked + label::after {
 @media screen and (min-width: 768px) {
 	header {
 		margin: auto;
+		height: 235px;
 	}
 
 	#header-wrapper {
@@ -284,20 +293,25 @@ input:checked + label::after {
 	.platform-container {
 	width: 255px;
 	height: 216px;
-	margin: 15px;
+	margin: 1px
 }
 
 #social-platforms {
 	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0 auto;
-	margin-top: -60px;
-}
+	justify-content: space-around;
+	margin-top: -8rem;
 }
 
-@media screen and (min-width: 768px) {
+.overview-container {
+	width: 255px;
+	height: 125px;
+}
+
+}
+
+/* @media screen and (min-width: 768px) {
 #header-wrapper {
 padding: 17px;
 }
 	
-}
+} */
