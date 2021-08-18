@@ -29,6 +29,9 @@ Users should be able to:
 
 ![](/images/desktop-light-theme-normal.png)
 
+#### This is the components Normal "Light" hover state ... <br>
+
+![](/images/desktop-light-theme-hover.png)
 #### Interactive state on Hover over change link...<br>
 
 <!-- ![](/images/hover-change.png) -->
