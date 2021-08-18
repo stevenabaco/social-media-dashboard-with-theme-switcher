@@ -311,7 +311,7 @@ input:checked + label::after {
 	#social-platforms {
 		flex-direction: row;
 		justify-content: space-around;
-		margin-top: -65px;
+		margin-top: -45px;
 	}
 
 	.overview-container {
