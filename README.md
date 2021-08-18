@@ -40,9 +40,9 @@ Users should be able to:
 
 ![](/images/desktop-dark-theme-hover.png)
 
-#### Interactive state on Hover over the payment link...<br>
+#### Normal state for "light" them on Mobile ...<br>
 
-<!-- ![](/images/hover-payment.png) -->
+![](/images/mobile-light-theme-normal.png)
 #### Interactive state on Hover over the payment link...<br>
 
 <!-- ![](/images/hover-cancel.png) -->
