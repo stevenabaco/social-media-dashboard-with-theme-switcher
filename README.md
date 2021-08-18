@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshots
 
-#### This is the components Normal state ... <br>
+#### This is the components Normal "Light" state ... <br>
 
-<!-- ![](/images/normal-state.png) -->
+<!-- ![](/images/desktop-light-theme-normal.png) -->
 
 #### Interactive state on Hover over change link...<br>
 

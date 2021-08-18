@@ -18,6 +18,7 @@ body[data-theme='light'] {
 	--color-7: hsl(208, 92%, 53%);
 	--color-8: hsl(348, 97%, 39%);
 	--color-9: hsl(356, 69%, 56%);
+	--color-10: hsl(228, 33%, 91%);
 	--toggle: hsl(230, 22%, 74%);
 	--hr: hsl(230, 12%, 44%);
 	--toggle-bg: hsl(228, 12%, 44%);
@@ -33,6 +34,7 @@ body[data-theme='dark'] {
 	--color-7: hsl(208, 92%, 53%);
 	--color-8: hsl(348, 97%, 39%);
 	--color-9: hsl(356, 69%, 56%);
+	--color-10: hsl(228, 25%, 27%);
 	--hr: hsl(228, 25%, 27%);
 	--toggle: hsl(228, 28%, 20%);
 	--toggle-bg: linear-gradient(to left, #388fe7, #40db82);
@@ -56,7 +58,7 @@ header {
 	height: 235px;
 	max-width: 1440px;
 	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;	
+	border-bottom-right-radius: 20px;
 	background-color: var(--color-2);
 }
 
@@ -160,6 +162,11 @@ input:checked + label::after {
 	margin-bottom: 2rem;
 }
 
+.platform-container:hover {
+	background: var(--color-10);
+	cursor: pointer;
+}
+
 .facebook,
 .twitter {
 	border-top: 5px solid var(--color-7);
@@ -210,7 +217,6 @@ input:checked + label::after {
 	color: var(--color-9);
 }
 
-
 #overview-wrapper {
 	align-items: center;
 	display: flex;
@@ -234,6 +240,11 @@ input:checked + label::after {
 	background: var(--color-3);
 	margin: 15px auto;
 	padding: 18px;
+}
+
+.overview-container:hover {
+	background-color: var(--color-10);
+	cursor: pointer;
 }
 
 .page-views {
@@ -275,12 +286,12 @@ input:checked + label::after {
 	}
 
 	#header-wrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	max-width: 1110px;
-	margin: auto;
-}
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		max-width: 1110px;
+		margin: auto;
+	}
 
 	header hr {
 		display: none;
@@ -291,27 +302,19 @@ input:checked + label::after {
 	}
 
 	.platform-container {
-	width: 255px;
-	height: 216px;
-	margin: 1px
-}
+		width: 255px;
+		height: 216px;
+		margin: 1px;
+	}
 
-#social-platforms {
-	flex-direction: row;
-	justify-content: space-around;
-	margin-top: -8rem;
-}
+	#social-platforms {
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top: -8rem;
+	}
 
-.overview-container {
-	width: 255px;
-	height: 125px;
+	.overview-container {
+		width: 255px;
+		height: 125px;
+	}
 }
-
-}
-
-/* @media screen and (min-width: 768px) {
-#header-wrapper {
-padding: 17px;
-}
-	
-} */
