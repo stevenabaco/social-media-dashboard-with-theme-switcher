@@ -148,7 +148,7 @@ input:checked + label::after {
 	justify-content: space-evenly;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: -40px;
+	margin-top: -0px;
 }
 
 .platform-container {
