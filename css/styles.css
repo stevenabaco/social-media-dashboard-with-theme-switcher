@@ -225,7 +225,7 @@ input:checked + label::after {
 	flex-wrap: wrap;
 }
 
-#overview h1 {
+#overview h3 {
 	margin-top: 2rem;
 	margin-left: 25px;
 	margin-bottom: 1rem;
