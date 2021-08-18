@@ -55,6 +55,7 @@ h2 {
 
 header {
 	padding: 25px;
+	padding-top: 3rem;
 	height: 235px;
 	max-width: 1440px;
 	border-bottom-left-radius: 20px;
