@@ -25,20 +25,20 @@ Users should be able to:
 
 ### Screenshots
 
-#### This is the components Normal "Light" state ... <br>
+#### Normal state for "Light" theme on desktop ... <br>
 
 ![](/images/desktop-light-theme-normal.png)
 
-#### This is the components Normal "Light" hover state ... <br>
+#### Interactive State on Hover for "Light" theme on desktop ... <br>
 
 ![](/images/desktop-light-theme-hover.png)
 
-#### This is the components Normal "Light" state ... <br>
+#### Normal state for "Dark" theme on desktop ... <br>
 
 ![](/images/desktop-dark-theme-normal.png)
-#### Interactive state on Hover over change link...<br>
+#### Interactive state on Hover for "Dark" theme...<br>
 
-<!-- ![](/images/hover-change.png) -->
+![](/images/desktop-dark-them-hover.png)
 
 #### Interactive state on Hover over the payment link...<br>
 
