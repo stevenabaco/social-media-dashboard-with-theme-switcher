@@ -32,6 +32,10 @@ Users should be able to:
 #### This is the components Normal "Light" hover state ... <br>
 
 ![](/images/desktop-light-theme-hover.png)
+
+#### This is the components Normal "Light" state ... <br>
+
+![](/images/desktop-dark-theme-normal.png)
 #### Interactive state on Hover over change link...<br>
 
 <!-- ![](/images/hover-change.png) -->
