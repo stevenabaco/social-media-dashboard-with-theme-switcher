@@ -40,13 +40,6 @@ Users should be able to:
 
 ![](/images/desktop-dark-theme-hover.png)
 
-#### Normal state for "light" them on Mobile ...<br>
-
-![](/images/mobile-light-theme-normal.png)
-#### Interactive state on Hover over the payment link...<br>
-
-<!-- ![](/images/hover-cancel.png) -->
-
 ### Links
 
 - Solution URL: [www.frontendmentor.io/profile/stevenabaco](https://www.frontendmentor.io/profile/stevenabaco)
@@ -57,7 +50,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom properties & variables
 - Flexbox
 - JavaScript
 - Mobile-first workflow
@@ -74,7 +67,7 @@ I'd like to continue fine tuning my CSS skills to enhace the UI experience. I al
 
 ### Useful resources
 
-- [stackOverflow](https://stackoverflow.com/users/13629204/steven-abaco) - The stackOverlow website helped me with solving some of the CSS issues I had with linking the images to be properly renedered when using the background image for a div, instead of loading a seperate image. I highly recommend developers use this resource.
+- [stackOverflow](https://stackoverflow.com/users/13629204/steven-abaco) - The stackOverlow website helped me with solving some of the CSS challenges I had useing the variables to change colors for different theme states. 
 
 ## Author
 
