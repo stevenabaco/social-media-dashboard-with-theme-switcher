@@ -38,7 +38,7 @@ Users should be able to:
 ![](/images/desktop-dark-theme-normal.png)
 #### Interactive state on Hover for "Dark" theme...<br>
 
-![](/images/desktop-dark-them-hover.png)
+![](/images/desktop-dark-theme-hover.png)
 
 #### Interactive state on Hover over the payment link...<br>
 
